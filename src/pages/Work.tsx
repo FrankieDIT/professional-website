@@ -24,7 +24,7 @@ const Work = () => {
       company: 'Company Name',
       period: 'Mar 2018 - Dec 2020',
       description: [
-        'Developed and maintained features for the company's flagship product',
+        "Developed and maintained features for the company's flagship product",
         'Worked with backend developers to implement RESTful API integrations',
         'Identified and fixed bugs, improving application stability',
         'Participated in agile development processes including daily standups and sprint planning'
