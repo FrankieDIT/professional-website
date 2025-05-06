@@ -35,7 +35,7 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                Professional Title or Tagline
+                IT Systems Engineer
               </motion.h2>
               <motion.p 
                 className="text-gray-600 mb-8 max-w-lg"
@@ -43,7 +43,7 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
               >
-                A brief introduction about yourself, your expertise, and what you're passionate about. Make it engaging and concise to capture visitors' attention.
+                Hi, I'm Frankie! I work in IT, love working to improve systems, and am dedicated to making the world a little bit better with every interaction!
               </motion.p>
               <motion.div 
                 className="flex flex-wrap gap-4"
@@ -121,7 +121,7 @@ const Home = () => {
         <p className="text-gray-600 max-w-2xl mx-auto mb-8">
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
         </p>
-        <Button href="mailto:your.email@example.com" size="lg">
+        <Button href="mailto:frankie@frankie-day.com" size="lg">
           Get In Touch
         </Button>
       </SectionContainer>
