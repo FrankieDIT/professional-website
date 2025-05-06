@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link to="/" className="text-palette-purple text-xl font-bold font-poppins">
-              YourName
+              Frankie Day
             </Link>
             <p className="text-gray-600 text-sm mt-1">Professional Portfolio</p>
           </div>
@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8">
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/frankieday"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-palette-purple transition-colors"
@@ -28,7 +28,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/frankieday"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-palette-purple transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:frankieday@example.com"
                 className="text-gray-600 hover:text-palette-purple transition-colors"
                 aria-label="Email"
               >
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-6 border-t border-gray-200 text-center text-gray-500 text-sm">
-          <p>&copy; {currentYear} YourName. All rights reserved.</p>
+          <p>&copy; {currentYear} Frankie Day. All rights reserved.</p>
         </div>
       </div>
     </footer>

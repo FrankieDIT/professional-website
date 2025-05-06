@@ -72,7 +72,7 @@ const Work = () => {
           <div className="flex flex-wrap justify-center gap-4">
             <Button to="/resume" variant="primary">View Resume</Button>
             <Button 
-              href="https://linkedin.com/in/yourusername" 
+              href="https://linkedin.com/in/frankieday" 
               variant="outline" 
               external
             >

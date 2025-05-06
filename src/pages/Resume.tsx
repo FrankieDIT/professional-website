@@ -2,7 +2,7 @@
 import PageLayout from '@/components/PageLayout';
 import SectionContainer from '@/components/SectionContainer';
 import Button from '@/components/Button';
-import { FileText, Download } from 'lucide-react';
+import { FileText, Download, Code, Briefcase } from 'lucide-react';
 
 const Resume = () => {
   return (
@@ -24,10 +24,10 @@ const Resume = () => {
 
         <SectionContainer index={1} className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-8">
           <div className="mb-8 text-center border-b pb-6">
-            <h2 className="text-3xl font-bold text-palette-purple">Your Name</h2>
+            <h2 className="text-3xl font-bold text-palette-purple">Frankie Day</h2>
             <p className="text-xl text-gray-600">Professional Title</p>
             <div className="flex justify-center items-center gap-4 mt-2 text-sm text-gray-500">
-              <span>yourname@example.com</span>
+              <span>frankieday@example.com</span>
               <span className="hidden sm:block">•</span>
               <span>(123) 456-7890</span>
               <span className="hidden sm:block">•</span>
@@ -35,7 +35,7 @@ const Resume = () => {
             </div>
             <div className="flex justify-center gap-3 mt-2">
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://linkedin.com/in/frankieday" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-palette-purple hover:text-palette-purple-dark transition-colors"
@@ -44,7 +44,7 @@ const Resume = () => {
               </a>
               <span>•</span>
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/frankieday" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-palette-purple hover:text-palette-purple-dark transition-colors"
@@ -53,7 +53,7 @@ const Resume = () => {
               </a>
               <span>•</span>
               <a 
-                href="https://yourportfolio.com" 
+                href="https://frankieday.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-palette-purple hover:text-palette-purple-dark transition-colors"
@@ -126,7 +126,7 @@ const Resume = () => {
           {/* Education Section */}
           <div className="mb-8">
             <h3 className="text-xl font-semibold mb-4 text-palette-purple flex items-center">
-              <GraduationCap className="w-5 h-5 mr-2" /> Education
+              <Code className="w-5 h-5 mr-2" /> Education
             </h3>
             
             {/* Degree 1 */}

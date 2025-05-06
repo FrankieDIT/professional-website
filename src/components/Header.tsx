@@ -41,7 +41,7 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link to="/" className="text-palette-purple text-xl font-bold font-poppins">
-          YourName
+          Frankie Day
         </Link>
 
         {/* Desktop Navigation */}

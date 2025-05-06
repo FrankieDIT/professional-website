@@ -1,4 +1,3 @@
-
 import PageLayout from '@/components/PageLayout';
 import SectionContainer from '@/components/SectionContainer';
 import Button from '@/components/Button';
@@ -36,7 +35,7 @@ const About = () => {
             <h1 className="section-heading">About Me</h1>
             <div className="prose prose-lg text-gray-600">
               <p>
-                Welcome to my portfolio! I'm [Your Name], a [Your Profession] passionate about [your passion/expertise]. 
+                Welcome to my portfolio! I'm Frankie Day, a [Your Profession] passionate about [your passion/expertise]. 
                 With [X years] of experience in the field, I've developed a deep understanding of [specific knowledge areas].
               </p>
               <p>

@@ -27,7 +27,7 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
               >
-                Your Name
+                Frankie Day
               </motion.h1>
               <motion.h2 
                 className="text-xl sm:text-2xl lg:text-3xl text-gray-700 mb-6"
