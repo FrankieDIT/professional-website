@@ -35,20 +35,19 @@ const About = () => {
             <h1 className="section-heading">About Me</h1>
             <div className="prose prose-lg text-gray-600">
               <p>
-                Welcome to my portfolio! I'm Frankie Day, a [Your Profession] passionate about [your passion/expertise]. 
-                With [X years] of experience in the field, I've developed a deep understanding of [specific knowledge areas].
+                Welcome to my online portfolio! I'm Frankie Day, an IT professional passionate about IT, AI, CI/CD, and diversity, equity and inclusion. 
+                With 5 of experience in the field, I've had hands-on experience with every part of the IT workflow.
               </p>
               <p>
-                My journey began [brief career start summary]. Since then, I've [key career milestone or achievement]. 
-                I approach each project with [your approach/philosophy], prioritizing [what you value in your work].
+                I've had a variety of jobs in my career that have sharpened my communication skills, 
               </p>
               <p>
                 Outside of my professional life, I enjoy [personal interests or hobbies]. These activities help me 
                 maintain a creative mindset and bring fresh perspectives to my work.
               </p>
               <p>
-                I'm constantly seeking to expand my knowledge and skills through [how you keep learning/growing]. 
-                I believe that [personal belief about your field or work approach].
+                I'm constantly seeking to expand my knowledge and skills through constant learning and upskilling. 
+                I believe that everyone belongs in tech, and tech belongs to the world!
               </p>
             </div>
           </SectionContainer>
@@ -78,25 +77,7 @@ const About = () => {
               </div>
             </div>
           </SectionContainer>
-
-          <SectionContainer index={2}>
-            <h2 className="section-heading">Education</h2>
-            <div className="space-y-8">
-              {education.map((item, index) => (
-                <div key={index} className="border-l-2 border-palette-purple pl-6 pb-2">
-                  <div className="absolute -left-[9px] w-4 h-4 rounded-full bg-palette-purple"></div>
-                  <h3 className="text-lg font-semibold text-gray-800">{item.degree} in {item.field}</h3>
-                  <div className="flex justify-between text-sm mb-2">
-                    <span className="text-palette-purple">{item.institution}</span>
-                    <span className="text-gray-500">{item.year}</span>
-                  </div>
-                  <p className="text-gray-600 text-sm">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </SectionContainer>
-
-          <SectionContainer index={3} className="text-center">
+          <SectionContainer index={3} className="text-center" children={undefined}>
             <h2 className="section-heading">Want to know more?</h2>
             <p className="text-gray-600 mb-6">Check out my work experience or download my full resume.</p>
             <div className="flex flex-wrap justify-center gap-4">
