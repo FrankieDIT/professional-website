@@ -28,10 +28,10 @@ const About = () => {
   ];
 
   return (
-    <PageLayout>
+    <PageLayout children={undefined}>
       <div className="page-container">
         <div className="max-w-3xl mx-auto">
-          <SectionContainer index={0}>
+          <SectionContainer index={0} children={undefined}>
             <h1 className="section-heading">About Me</h1>
             <div className="prose prose-lg text-gray-600">
               <p>
@@ -52,7 +52,7 @@ const About = () => {
             </div>
           </SectionContainer>
 
-          <SectionContainer index={1}>
+          <SectionContainer index={1} children={undefined}>
             <h2 className="section-heading">Skills</h2>
             
             <div className="mb-8">

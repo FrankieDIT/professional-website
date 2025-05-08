@@ -7,31 +7,31 @@ const Hobbies = () => {
   // Sample hobbies data
   const hobbies = [
     {
-      title: 'Photography',
-      description: 'I love capturing moments and exploring visual storytelling through photography.',
-      image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=700'
+      title: 'Mandarin Chinese',
+      description: 'I am fluent in Mandarin Chinese, and love interacting with Chinese culture both online and in person.',
+      image: 'https://images.unsplash.com/photo-1554219028-20be14a4a466?q=80&w=2771&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
-      title: 'Hiking',
+      title: 'Hiking and Camping',
       description: 'Exploring nature trails and reaching mountaintops gives me perspective and peace.',
       image: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=700'
     },
     {
-      title: 'Reading',
-      description: 'Books are portals to new worlds and ideas that expand my horizons.',
-      image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=700'
+      title: 'Travel',
+      description: 'Travelling to new places helps keep me focused when I return home',
+      image: 'https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
-      title: 'Cooking',
-      description: 'Creating delicious meals combines creativity and precision in the perfect way.',
-      image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=700'
+      title: 'Writing',
+      description: 'Creativity is what keeps my mind working, and my heart full.',
+      image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=3473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     }
   ];
 
   return (
-    <PageLayout>
+    <PageLayout children={undefined}>
       <div className="page-container">
-        <SectionContainer index={0}>
+        <SectionContainer index={0} children={undefined}>
           <h1 className="section-heading text-center">My Hobbies</h1>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-12">
             When I'm not working, I enjoy a variety of activities that keep me balanced and inspired.
@@ -39,7 +39,7 @@ const Hobbies = () => {
           </p>
         </SectionContainer>
 
-        <SectionContainer index={1}>
+        <SectionContainer index={1} children={undefined}>
           <div className="grid md:grid-cols-2 gap-8">
             {hobbies.map((hobby, index) => (
               <motion.div 
@@ -61,7 +61,7 @@ const Hobbies = () => {
           </div>
         </SectionContainer>
 
-        <SectionContainer index={2} className="bg-gray-50 rounded-xl p-8">
+        <SectionContainer index={2} className="bg-gray-50 rounded-xl p-8" children={undefined}>
           <h2 className="text-2xl font-bold mb-4 text-center">Why Hobbies Matter</h2>
           <div className="max-w-3xl mx-auto prose prose-purple">
             <p>
@@ -69,9 +69,9 @@ const Hobbies = () => {
               My hobbies help me recharge, learn new skills, and connect with different communities.
             </p>
             <p>
-              The problem-solving skills I use in [Hobby] often translate to my professional work, helping me
+              The problem-solving skills I use in international travel often translate to my professional work, helping me
               approach challenges from new angles. Similarly, the attention to detail I've developed through 
-              [Another Hobby] enhances my professional output.
+              studying languages enhances my professional output.
             </p>
             <p>
               At the end of the day, these activities make me who I am and inform my unique perspective and 
