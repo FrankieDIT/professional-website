@@ -13,7 +13,7 @@ const Footer = () => {
             <Link to="/" className="text-palette-purple text-xl font-bold font-poppins">
               Frankie Day
             </Link>
-            <p className="text-gray-600 text-sm mt-1">Professional Portfolio</p>
+            <p className="text-gray-600 text-sm mt-1">IT Systems Engineer II</p>
           </div>
 
           <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8">

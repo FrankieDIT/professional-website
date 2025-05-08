@@ -5,43 +5,56 @@ import ExperienceCard from '@/components/ExperienceCard';
 import Button from '@/components/Button';
 
 const Work = () => {
-  // Sample work experience data
+  // Work experience data from resume
   const workExperiences = [
     {
-      position: 'Senior Position',
-      company: 'Company Name',
-      period: 'Jan 2021 - Present',
+      position: 'IT Systems Engineer II',
+      company: 'Nomad Health',
+      period: '06/2024 - Present',
       description: [
-        'Led cross-functional team in developing feature X that improved metric Y by Z%',
-        'Collaborated with product and design to implement responsive interfaces for web and mobile',
-        'Optimized application performance by refactoring code and reducing load time by 40%',
-        'Mentored junior developers through code reviews and pair programming sessions'
+        'Uses Jira workflows to create custom routing procedures for Zendesk tickets',
+        'Develops internal tools and scripts to expedite common tasks and procedures',
+        'Assists in the operation of Nomad Health systems from user management through integration improvement',
+        'Collaborates with the IT Team members to proactively address IT pain points',
+        'Utilizes Okta Workflows and Workato to automate tasks administration, access, and systems tasks',
+        'Works closely with C Suite to form drive IT goals and directives',
+        'Administers and manages macOS devices using JAMF, ensuring seamless deployment, configuration, and maintenance'
       ],
-      skills: ['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4']
+      skills: ['Jira', 'Zendesk', 'Okta', 'JAMF', 'Script Development']
     },
     {
-      position: 'Mid-level Position',
-      company: 'Company Name',
-      period: 'Mar 2018 - Dec 2020',
+      position: 'IT Systems Administrator',
+      company: 'Nomad Health',
+      period: '12/2021 - 10/2023',
       description: [
-        "Developed and maintained features for the company's flagship product",
-        'Worked with backend developers to implement RESTful API integrations',
-        'Identified and fixed bugs, improving application stability',
-        'Participated in agile development processes including daily standups and sprint planning'
+        'Managed user account lifecycles by creating, modifying, and terminating accounts across multiple platforms, including Okta and Google Administrator',
+        'Implemented single sign-on (SSO) solutions and multi-factor authentication (MFA) methods to enhance user authentication security while optimizing user experience',
+        'Leveraged command line and scripting languages such as Bash and PowerShell to automate routine system maintenance tasks'
       ],
-      skills: ['Skill 2', 'Skill 5', 'Skill 6']
+      skills: ['Okta', 'Google Workspace', 'SSO', 'MFA', 'Bash', 'PowerShell']
     },
     {
-      position: 'Junior Position',
-      company: 'Company Name',
-      period: 'Jun 2016 - Feb 2018',
+      position: 'Technical Systems Analyst, Associate',
+      company: 'Atrium Health',
+      period: '10/2019 - 12/2021',
       description: [
-        'Assisted in the development of front-end components using modern frameworks',
-        'Implemented UI designs according to specifications',
-        'Wrote unit tests to ensure code quality',
-        'Documented code and processes for team knowledge sharing'
+        'Provided first and second-level support for Microsoft Office 365 applications, including Outlook, SharePoint, OneDrive, and Teams',
+        'Employed strong problem-solving skills to diagnose complex technical issues and swiftly devise effective solutions',
+        'Utilized ServiceNow to manage and process tickets, troubleshoot technical issues, improve efficiency, and reduce errors'
       ],
-      skills: ['Skill 7', 'Skill 8', 'Skill 9']
+      skills: ['Microsoft Office 365', 'ServiceNow', 'Technical Support', 'Problem Solving']
+    },
+    {
+      position: 'US Diplomat, Public Diplomacy',
+      company: 'US Department of State',
+      period: '06/2013 - 08/2018',
+      description: [
+        'Evaluated visa applications, ensuring applicants met the necessary criteria and qualifications',
+        'Conducted thorough security background checks on visa applicants to identify potential risks or threats',
+        'Provided support and assistance to American citizens abroad by conducting onsite visits',
+        'Coordinated Media Center and Outreach during the 2015 Presidential visit to Kingston, Jamaica'
+      ],
+      skills: ['Security Protocols', 'Diplomatic Relations', 'Event Coordination', 'Public Service']
     }
   ];
 
