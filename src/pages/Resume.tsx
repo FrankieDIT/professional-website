@@ -27,7 +27,7 @@ const Resume = () => {
             <h2 className="text-3xl font-bold text-palette-purple">Frankie Day</h2>
             <p className="text-xl text-gray-600">Professional Title</p>
             <div className="flex justify-center items-center gap-4 mt-2 text-sm text-gray-500">
-              <span>frankieday@example.com</span>
+              <span>frankie@frankie-day.com</span>
               <span className="hidden sm:block">•</span>
               <span>(123) 456-7890</span>
               <span className="hidden sm:block">•</span>
